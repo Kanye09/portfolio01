@@ -1,0 +1,108 @@
+* {
+  margin: auto;
+  font-family: "Playfair Display", serif;
+}
+
+body {
+  background-color: #ecf3f470;
+  color: rgb(0, 0, 0);
+}
+header {
+  padding: 20px;
+  background-color: rgba(15, 39, 49, 0.87);
+}
+
+main,
+section {
+  margin: 10px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+}
+
+nav p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+section {
+  padding-bottom: 50px;
+}
+
+nav .nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-links a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.content img {
+  width: 35%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.content p {
+  padding-right: 20px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
+
+.content {
+  display: inline-flex;
+}
+
+.projects a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(176, 226, 96);
+}
+
+.skills img {
+  width: 50px;
+  height: auto;
+}
+
+.contacts {
+  line-height: 1.5;
+}
+
+.contacts img {
+  width: 40px;
+  height: auto;
+}
+
+#btn {
+  padding: 10px 10px;
+  background-color: #054a5c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  float: right;
+  font-size: 16px;
+}
+
+#btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5ms;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
